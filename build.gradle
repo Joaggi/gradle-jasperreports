@@ -12,6 +12,9 @@ group = 'com.github.gmazelier'
 version = project.property('version')
 
 repositories {
+	maven {
+		url "https://jaspersoft.jfrog.io/artifactory/third-party-ce-artifacts/"
+	}
 	jcenter()
 	mavenCentral()
 	maven {
